@@ -62,12 +62,19 @@ table{
     font-size: 18px;
     margin-top: 20px;
     font-family: sans-serif;
+    position: relative;
+    left: 10px;
     
 }
 
 @media(max-width:500px){
+   
+
     .container{
         max-width: 500px;
+        height:auto;
+        
+       
       
     }
     #form{
@@ -86,5 +93,7 @@ table{
     button{
         height: 30px;
     }
+
+    
 
 }

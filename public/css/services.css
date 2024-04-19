@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+  
+    background-color: rgb(146, 220, 146);
+    height: 1000px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Protest Revolution';
+}
+
+table{
+    text-align: center;
+    margin-left: 350px;
+    width: 570px;
+    line-height: 1.7;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    position: relative;
+    left: 10px;
+    
+}
+
+@media(max-width:500px){
+body{
+    background:rgb(146, 220, 146);
+}
+.table{
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+table{
+    position: relative;
+    left: -300px;
+    width: 400px;
+}
+
+.table h2{
+    font-size:20px;
+}
+}
