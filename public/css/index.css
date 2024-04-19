@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kode+Mono:wght@400..700&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch+Pop&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: fit-content;
+    /* background-color: rgb(181, 40, 181); */
+    background: transparent;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.bible{
+
+    width: 100px;
+    height: 80px;
+    color: rgb(198, 177, 57);
+}
+
+#logo-text{
+    font-size: 25px;
+    position: relative;
+    bottom: 25px;
+    left: 82px;
+    font-family: Protest Revolution;
+    color: rgb(198, 177, 57);
+    text-shadow: 0 0 3px black;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 80px;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    margin: 12px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-family: Poppins;
+
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    background-image: url(../imagesFolder/student1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.school-name{
+    width: 800px;
+    height: 250px;
+    background: rgba(80,90,67,0.5);
+    position: relative;
+    top: 30px;
+    left: 230px;
+
+}
+
+#sname,#saddress{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+#sname{
+    font-size: 45px;
+    font-family: Poppins;
+
+}
+
+#saddress{
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+#enroll_btn{
+    width: 200px;
+    height: 45px;
+    background: rgb(198, 177, 57);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 15px;
+
+}
+
+#enroll_btn:hover{
+    background-color: gold;
+    font-size: 18px;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.values{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    width: 300px;
+    height: 250px;
+    background: url(../imagesFolder/integrity1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0 50px 50px rgb(198, 177, 57);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card2{
+    width: 300px;
+    height: 250px;
+    background: url(../imagesFolder/integrity2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0 50px 50px rgb(198, 177, 57);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card3{
+    width: 300px;
+    height: 250px;
+    background: url(../imagesFolder/integrity3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0 50px 50px rgb(198, 177, 57);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card4{
+    width: 300px;
+    height: 250px;
+    background: url(../imagesFolder/integrity4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0 50px 50px rgb(198, 177, 57);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.values-text{
+    width: 100%;
+    height: 100px;
+}
+
+.values-text p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Protest Revolution;
+    letter-spacing: 2px;
+    color: purple;
+    margin-top: 20px;
+}
+
+
+.diversity-text p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Protest Revolution;
+    letter-spacing: 2px;
+    color: purple;
+    margin-top: 15px;
+}
+
+.diversity-text{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.diversity{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1{
+    width: 300px;
+    height: 250px;
+    background: url(../imagesFolder/diversity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 50px 50px rgb(198, 177, 57);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box2{
+    width: 300px;
+    height: 250px;
+    background: url(../imagesFolder/diversity1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 50px 50px rgb(198, 177, 57);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box3{
+    width: 300px;
+    height: 250px;
+    background: url(../imagesFolder/student2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 50px 50px rgb(198, 177, 57);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.testimonials-text{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.testimonials-text p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Protest Revolution;
+    letter-spacing: 2px;
+    color: purple;
+    margin-top: 15px;
+}
+
+.testimonials{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(174, 77, 174);
+    /* box-shadow: 0 50px 50px rgb(198, 177, 57); */
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.woman1{
+    width: 80%;
+    height: 150px;
+    background: url(../imagesFolder/woman1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border-radius: 10px;
+}
+
+.text1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.img2{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(174, 77, 174);
+    /* box-shadow: 0 50px 50px rgb(198, 177, 57); */
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
+.man{
+    width: 80%;
+    height: 150px;
+    background: url(../imagesFolder/man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border-radius: 10px;
+
+}
+
+.text2{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.img3{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(174, 77, 174);
+    /* box-shadow: 0 50px 50px rgb(198, 177, 57); */
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.woman2{
+    width: 80%;
+    height: 150px;
+    background: url(../imagesFolder/woman2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border-radius: 10px;
+
+}
+
+.text3{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: rgb(58, 75, 24);
+    position: relative;
+    top:30px ;
+    text-align: center;
+    color: white;
+}
+
+.footer h3{
+    position: relative;
+    top: 20px;
+}
+
+@media(max-width:500px){
+    .container{
+        max-width: 500px;
+        height:fit-content ;
+
+    }
+
+    .banner{
+        max-width: 500px;
+        height: 400px;
+        background-image: url(../imagesFolder/student1.jpg);
+        background-position: center;
+
+    }
+
+    .bible{
+        width: 50px;
+        height: 50px;
+    }
+
+    #logo-text{
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        top: -20px;
+    }
+
+    ul{
+        position: relative;
+        bottom: 70px;
+    }
+
+    ul a{
+        font-size: 14px;
+        font-family: Poppins;
+    }
+
+    .school-name{
+        width: 400px;
+        height: 100px;
+        position: relative;
+        left: 50px;
+
+    }
+    
+    
+    #sname,#saddress{
+        font-size: 20px;
+    }
+
+    #enroll_btn{
+        width: 150px;
+        height: 30px;
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+
+    .values-text{
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+        color: maroon;
+    }
+
+    .values{
+        max-width: 500px;
+        height: auto;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .card1,.card2,.card3,.card4{
+        width: 200px;
+        height: 200px;
+    }
+
+    .diversity-text p{
+        font-size: 30px;
+        font-weight: bold;
+        color: maroon;
+    }
+
+    .diversity{
+        max-width: 500px;
+        height: auto;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .box1,.box2,.box3{
+        width: 200px;
+        height: 200px;
+    }
+
+    .testimonials-text p{
+        font-size: 25px;
+        font-weight: bold;
+        color: maroon;
+    }
+
+    .testimonials{
+        max-width: 500px;
+        height: auto;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        color: white;
+    }
+
+    .footer{
+        max-width: 500px;
+        height: 50px;
+        position: relative;
+        top: -10px;
+    }
+
+   
+
+
+    
+}

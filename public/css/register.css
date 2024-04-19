@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagesFolder/register.jpg);
+    background-position: center;
+}
+
+form{
+    width: 800px;
+    height: 250px;
+    background: rgba(80,90,67,0.5);
+    position: relative;
+    top: 150px;
+    left: 230px;
+    text-align: center;
+    padding: 50px;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+   text-align: center;
+   outline: none;
+}
+
+::placeholder{
+    text-align: center;
+    color: rgba(36,44,23);
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.table{
+  
+    background-color: rgb(146, 220, 146);
+    height: 1000px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Protest Revolution';
+}
+
+table{
+    text-align: center;
+    margin-left: 350px;
+    width: 570px;
+    line-height: 1.7;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+}
+
+@media(max-width:500px){
+    .container{
+        max-width: 500px;
+      
+    }
+    #form{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left: 30px;
+        top: 50px;
+    }
+
+    input{
+        width: 80%;
+        height: 30px;
+    }
+
+    button{
+        height: 30px;
+    }
+
+}

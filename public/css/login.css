@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagesFolder/schroad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    width: 800px;
+    height: 280px;
+    background: rgba(80,90,67,0.5);
+    position: relative;
+    top: 120px;
+    left: 230px;
+    text-align: center;
+    padding: 50px;
+}
+
+input{
+    width: 300px;
+    height: 45px;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+   text-align: center;
+   outline: none;
+   background: transparent;
+   border: 2px solid white;
+   border-radius: 4px;
+   color: white;
+}
+
+::placeholder{
+    text-align: center;
+    /* color: rgba(36,44,23); */
+    color: white;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+
+@media(max-width:500px){
+    .container{
+        max-width: 500px;
+      
+    }
+    .form{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+
+    input{
+        width: 80%;
+        height: 30px;
+    }
+
+    button{
+        height: 30px;
+    }
+
+}

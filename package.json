@@ -1,0 +1,19 @@
+{
+  "name": "divine-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
